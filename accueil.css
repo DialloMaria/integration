@@ -1,0 +1,232 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #ffffff;
+    color: #333333;
+}
+
+.welcome-section,
+.about-section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%; /* Assure que la section occupe toute la largeur */
+    padding: 60px;
+    box-sizing: border-box; /* Assure que le padding n'ajoute pas de largeur supplémentaire */
+}
+
+.welcome-section {
+    background-color: #f5f5f5;
+    background-image: url(images/Desktop\ -\ 7\ \(2\).png);
+    background-repeat: no-repeat;
+    background-size: cover; /* Couvre toute la largeur de la section */
+}
+
+.about-section {
+    background-image: url(images/Group\ 439\ \(1\).png );
+    background-repeat: no-repeat;
+    background-size: cover; /* Couvre toute la largeur de la section */
+    color: #ffffff; /* Couleur du texte */
+    height: 500px; /* Hauteur de la section */
+}
+
+.content {
+    max-width: 50%; /* Limite la largeur du contenu à 50% de la section */
+}
+
+.content1 {
+    max-width: 50%; /* Limite la largeur du contenu à 50% de la section */
+    padding-left: 40px;
+}
+
+.illustration-container {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+h1 {
+    font-size: 2.5rem;
+    color: #000000;
+    margin-bottom: 20px;
+}
+
+.highlight {
+    color: #4caf50; /* Couleur verte pour le texte mis en valeur */
+}
+
+.lead {
+    font-size: 1rem;
+    color: #555555;
+    margin-bottom: 20px;
+}
+
+.btn {
+    display: inline-block;
+    background-color: #4caf50; /* Couleur du bouton */
+    color: #ffffff;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 1rem;
+}
+
+.pagination {
+    position: absolute;
+    bottom: 20px;
+    left: 40px;
+}
+
+.page-indicator {
+    background-color: #f7b566;
+    color: #ffffff;
+    padding: 5px 10px;
+    border-radius: 50%;
+    margin-right: 5px;
+    font-size: 0.9rem;
+    font-weight: bold;
+}
+
+.page-indicator.active {
+    background-color: #4caf50; /* Couleur de l'indicateur actif */
+}
+
+h2 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
+
+p {
+    font-size: 1rem;
+    line-height: 1.6;
+    margin-bottom: 20px;
+}
+
+.services-section{
+    background-image: url();
+}
+.card-container {
+    display: flex;
+    justify-content: center; /* Centrer les cartes horizontalement */
+    gap: 5rem; /* Espace entre les cartes */
+  }
+  
+  .card {
+    max-width: 24rem; /* 24rem équivaut à environ 384px */
+    background-color: var(--card-background, #f8f9fa); /* couleur de fond de la carte */
+    color: var(--card-foreground, #212529); /* couleur du texte principal */
+    border-radius: 0.5rem; /* coins arrondis */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* ombre portée */
+    padding: 1.5rem; /* espacement interne */
+  }
+  
+  .card-header {
+    display: flex;
+    align-items: center;
+    margin-bottom: 1rem; /* espace sous le header */
+  }
+  
+  .card-icon {
+    width: 2rem;
+    height: 2rem;
+    background-color: var(--accent-color, #e9ecef); /* couleur d'accent */
+    border-radius: 50%; /* rendre l'icône ronde */
+    margin-right: 0.75rem; /* espace à droite de l'icône */
+  }
+  
+  .card h2 {
+    font-size: 1.25rem; /* taille de la police du titre */
+    font-weight: bold;
+  }
+  
+  .card-text {
+    color: var(--muted-foreground, #6c757d); /* couleur du texte secondaire */
+  }
+  
+
+  
+  body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+section {
+    padding: 20px;
+    margin-bottom: 40px;
+}
+
+.section-one {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.section-one .text-content {
+    max-width: 50%;
+}
+
+.section-one ul {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+.section-one li {
+    margin-bottom: 10px;
+    font-size: 1rem;
+}
+
+.section-one .icon {
+    margin-right: 10px;
+    color: green;
+}
+
+.section-one .image-content img {
+    max-width: 100%;
+}
+
+.section-two {
+    background-color: #045D56;
+    display: flex;
+    justify-content: space-around;
+    color: white;
+    padding: 40px 0;
+}
+
+.section-two .card {
+    text-align: center;
+    width: 30%;
+    gap: 90px;
+}
+
+.section-two .icon-circle {
+    background-color: white;
+    color: #045D56;
+    border-radius: 50%;
+    display: inline-block;
+    padding: 10px;
+    font-size: 2rem;
+}
+
+.section-three {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.section-three .text-content {
+    max-width: 40%;
+}
+
+.section-three .image-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 10px;
+}
+
+.section-three .image-grid img {
+    width: 100%;
+    border-radius: 10px;
+}
